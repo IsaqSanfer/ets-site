@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(206,206,206);
+    background-color: rgb(87,87,87);
     margin: auto;
     max-width: 900px;
     font-family: Verdana, Arial;
@@ -18,11 +18,11 @@ body {
 
 .title {
     color: rgb(239,187,64);
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
-    padding: 25px;
+    text-align: right;
+    /*padding: 5px;*/
 }
 
 .subtitle {
@@ -33,31 +33,28 @@ body {
 }
 
 .post_title {
-    color: rgb(51,51,51);
     font-size: 30px;
     font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
     margin: 0;
     margin-bottom: 15px;
-    text-transform: capitalize;
 }
 
 .post {
-    color: whitesmoke;
-    background-color: rgba(87,87,87);
+    color: rgb(206,206,206);
+    background-color: rgb(51,51,51);
     padding: 15px;
-    border: 3px solid red;
-    border-top: 5px dashed navy;
-    border-bottom: 2px dotted violet;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px ;
-    font-size: 30;
-    text-align: center;
+    border: 3px solid rgb(239,187,64);
+   /* border-top-right-radius: 20px; */
+    border-bottom-right-radius: 20px ;
 }
 
 .post_content {
     margin: 0;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 16px;
+    text-align: justify;
 }
 
 .post_img {
@@ -67,6 +64,7 @@ body {
 
 .base-page {
     color: whitesmoke;
-    background-color: rgb(87,87,87);
+    background-color: rgb(51,51,51);
+    width: auto;
 }
 
